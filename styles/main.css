@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+  background: whitesmoke;
+  color: #555555;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  box-sizing: border-box;
+}
+
+.content {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#bday-div{
+  display: none;
+}
+
+#emojis {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: x-large;
+}
+
+#submit-btn {
+  margin: 10px;
+  border: none;
+  color: #788b8f;
+}
+
+#pwd-input {
+  /* border: 1px solid green; */
+  margin: 10px;
+  text-align: center;
+}
+
+/* #NiceAndSimple: Input and Dropdown Menu - https://codepen.io/tomsoderlund/pen/GNBbWz */
+input,
+.input,
+textarea,
+select {
+  -webkit-appearance: none;
+  background-color: white;
+  color: inherit;
+  outline: none;
+  resize: none;
+  box-sizing: border-box;
+  border-radius: 0.6em;
+  border: 1px solid lightgray;
+  box-shadow: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0.6em;
+  margin-right: 0.6em;
+  min-width: 15em;
+}
+input::placeholder,
+textarea::placeholder {
+  color: lightgray;
+}
+input:hover:not(:disabled):not(:focus),
+.input:hover:not(:disabled):not(:focus),
+textarea:hover:not(:disabled):not(:focus),
+select:hover:not(:disabled):not(:focus) {
+  border-color: silver;
+}
+input:focus,
+.input:focus,
+textarea:focus,
+select:focus {
+  border-color: darkgray;
+}
+input:read-only,
+textarea:read-only {
+  color: darkgray;
+}
+input:disabled,
+.input:disabled,
+textarea:disabled,
+select:disabled {
+  background-color: whitesmoke;
+  color: darkgray;
+}
